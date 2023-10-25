@@ -1,0 +1,251 @@
+.parentDiv {
+  display: flex;
+  margin-top: 30px;
+  gap: 40px;
+}
+
+.contact {
+  height: 70%;
+  width: 23%;
+  margin-left: 57px;
+  text-align: center;
+}
+
+.contectDetail {
+  background-color: white;
+  position: relative;
+  height: 340px;
+  margin-top: 90px;
+  margin-bottom: -21px;
+  padding-top: 75px;
+  border: 0px solid;
+  border-radius: 12px;
+  height: 484px;
+}
+
+.personel {
+  background-color: #F2F7FC;
+  width: 80%;
+  margin-left: 23px;
+  margin-top: 15px;
+  border: px solid #F2F7FC;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-top: 15px;
+  text-align: start;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 30px;
+  width: 80%;
+}
+
+.project-info {
+  margin-right: 16px;
+  margin-left: 13px;
+  opacity: 0.7;
+}
+
+.app-dev-img {
+  padding-top: 8px;
+  padding-left: 15px;
+}
+
+.dev-text {
+  font-size: 23px;
+  padding-left: 8px;
+}
+
+.homeicons {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 10%;
+  margin-top: -5px;
+}
+
+.profileImage {
+  position: absolute;
+  z-index: 1;
+  margin-left: -76px;
+  border: 0px solid;
+  border-radius: 10px;
+}
+
+.navbar {
+  border: 0.5px solid #99646430;
+  padding: 13px;
+  border-radius: 22px;
+  margin-bottom: 10px;
+}
+
+.resumeInfo {
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+  margin-top: 10px;
+}
+
+.aboutme {
+  width: 90%;
+  background-color: white;
+  border: 0px solid;
+  border-radius: 12px;
+}
+
+.portfolio {
+  width: 90%;
+  background-color: white;
+  border: 0px solid;
+  border-radius: 12px;
+}
+
+.development {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  padding: 0 16px;
+  grid-gap: 24px;
+  margin-bottom: 16px;
+}
+
+.projects-details {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  grid-gap: 20px;
+  flex-wrap: wrap;
+  padding: 16px;
+  overflow: auto;
+  margin-left: 5%;
+  cursor: pointer;
+}
+
+.projects-items {
+  padding: 10px;
+  background: bisque;
+  border-radius: 10px;
+  min-width: 43%;
+  /* display: flex; */
+  flex-direction: column;
+}
+
+.work {
+  background-color: bisque;
+  border: 0px solid;
+  border-radius: 5px;
+}
+
+.Contact {
+  width: 90%;
+  background-color: white;
+  border: 0px solid;
+  border-radius: 12px;
+}
+
+.tech-mentor {
+  color: gray;
+  font-size: 10px;
+}
+
+.font-size {
+  font-size: 12px;
+  font-size: 12px;
+  font-size: 12px;
+}
+
+.d-flex {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.rec-img {
+  padding-left: 7px;
+  padding-top: 4px;
+}
+
+.project-info-basic {
+  font-size: 8px;
+  color: gray;
+  padding-left: 5px;
+}
+
+.project-title {
+  padding-left: 5px;
+}
+
+.contact-phone {
+  padding-left: 75px;
+  padding-top: 28px;
+}
+
+.number {
+  padding-left: 35px;
+  font-size: 17px;
+}
+
+.padding-left {
+  padding-left: 30px;
+}
+
+@media screen and (max-width:767px) {
+  .parentDiv {
+    flex-wrap: wrap;
+  }
+
+  .contact {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .personel {
+    margin: 0 auto;
+  }
+
+  .aboutme {
+    width: 100%;
+    background-color: white;
+    border: 0px solid;
+    border-radius: 12px;
+    margin-left: 0;
+  }
+
+  .homeicons {
+    display: flex;
+    justify-content: flex-end;
+    /* padding-right: 10%; */
+    margin-top: 20px;
+  }
+
+  .navbar {
+    border: 0.5px solid #99646430;
+    border-radius: 22px;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width:578px) {
+  .aboutme {
+    width: 100%;
+    background-color: white;
+    border: 0px solid;
+    border-radius: 12px;
+    margin-left: 0;
+  }
+
+  .homeicons {
+    display: flex;
+    justify-content: flex-end;
+    /* padding-right: 10%; */
+    margin-top: 30px;
+    width: 100%;
+  }
+
+  .navbar {
+    border: 0.5px solid #99646430;
+    border-radius: 22px;
+    margin-bottom: 10px;
+  }
+}
